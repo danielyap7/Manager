@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Manager</string>
+    <string name="title_general">General</string>
+    <string name="title_purchaser">Purchaser</string>
+    <string name="title_checklist">Check List</string>
+
+    <string name="propertydetail">Property Details</string>
+    <string name="bankdetail">Bank Details</string>
+    <string name="purchaser">Purchaser</string>
+    <string name="borrower">Borrower</string>
+    <string name="vendor">Vendor</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blankdata">Blank Data</string>
+    <string name="description">Description</string>
+    <string name="title_activity_contact_details">ContactDetails</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_change_password">Change Password</string>
+</resources>

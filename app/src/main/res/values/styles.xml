@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LoginTitle_Text" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="LoginInput_Text" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Grey</item>
+    </style>
+
+    <style name="ReferenceID_Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ProjectDetails_Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <style name="ProjectDate_Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ProjectStatus_Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <style name="CaseDetails_Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <style name="CaseDetails_Data" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+</resources>

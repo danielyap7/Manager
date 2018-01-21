@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/ic_account_circle_white_24px"
+        app:showAsAction="ifRoom"
+        android:title="Profile"
+        >
+    </item>
+
+
+</menu>

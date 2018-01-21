@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:orientation="vertical"
+    tools:context="com.mortgagehotline.manager.Profile_Activity">
+
+        <TextView
+            android:id="@+id/NameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Name"
+            style="@style/LoginInput_Text"
+            android:textSize="18dp"
+            />
+
+
+        <EditText
+            android:id="@+id/NameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:text="John Smith"
+            android:textColor="@color/black"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:id="@+id/EmailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Email"
+            style="@style/LoginInput_Text"
+            android:textSize="18dp"
+            />
+
+
+        <EditText
+            android:id="@+id/EmailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:text="demo@mortgage.my"
+            android:textColor="@color/black"
+            android:enabled="false"
+            />
+
+
+        <TextView
+            android:id="@+id/PasswordTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Password"
+            style="@style/LoginInput_Text"
+            android:textSize="18dp"
+            />
+
+
+        <EditText
+            android:id="@+id/PasswordEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            />
+
+
+        <TextView
+            android:id="@+id/ConfirmPasswordTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Confirm Password"
+            style="@style/LoginInput_Text"
+            android:textSize="18dp"
+            />
+
+
+        <EditText
+            android:id="@+id/ConfirmPasswordEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/pwdUpdateButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="52dp"
+            android:background="@color/colorPrimary"
+            android:text="Update Password"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+

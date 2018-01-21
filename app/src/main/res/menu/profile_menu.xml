@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/ic_exit_to_app_white_24px"
+        app:showAsAction="ifRoom"
+        android:title="LogOut Profile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+
+        >
+    </item>
+
+
+</menu>

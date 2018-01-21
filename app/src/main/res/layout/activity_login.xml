@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="30dp"
+    tools:context="com.mortgagehotline.manager.Login_Activity">
+
+
+    <TextView
+        style="@style/LoginTitle_Text"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st Mortgage Hotline"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="@drawable/round_ract_shape">
+
+        <TextView
+            android:id="@+id/SignIntxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="25dp"
+            android:text="@string/sign_in"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lgnEmailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/SignIntxt"
+            android:layout_below="@+id/SignIntxt"
+            android:layout_marginTop="30dp"
+            android:text="Email"
+            style="@style/LoginInput_Text"
+            />
+
+
+        <EditText
+            android:id="@+id/lgnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lgnEmailtxt"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/SignIntxt"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textfield_login"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/lgnPasstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/SignIntxt"
+            android:layout_below="@+id/lgnEmail"
+            android:layout_marginTop="20dp"
+            android:text="Password"
+            style="@style/LoginInput_Text" />
+
+        <EditText
+            android:id="@+id/lgnPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lgnPasstxt"
+            android:layout_alignStart="@+id/SignIntxt"
+            android:layout_marginEnd="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textfield_login"
+            android:ems="11"
+            android:inputType="textPassword"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fgtPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/lgnEmail"
+            android:layout_below="@+id/lgnPass"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/forgot_password"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+
+        <Button
+            android:id="@+id/lgnbtn"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:background="@color/colorPrimary"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
